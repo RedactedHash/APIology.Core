@@ -1,4 +1,5 @@
-﻿namespace System.Diagnostics
+﻿#if !NETSTANDARD13
+namespace System.Diagnostics
 {
 	using Linq;
 	using Reflection;
@@ -41,3 +42,4 @@
 		}
 	}
 }
+#endif
